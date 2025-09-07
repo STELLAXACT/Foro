@@ -1,0 +1,86 @@
+🌑 ¿Qué es la página?
+
+Es una página web ficticia llamada Night Rituals Forum, que funciona como un foro oscuro interactivo con estética de dark web + Halloween + ocultismo.
+Está diseñada para que parezca un espacio clandestino, misterioso y macabro donde los usuarios pueden compartir, leer e interactuar.
+
+🕸️ ¿Qué tiene dentro?
+1. 📝 Foro de géneros oscuros
+
+Categorías: Dreams, Nightmares, Occult, Urban Legends, Dark Poetry.
+
+Cada post puede tener:
+
+Texto largo (historias, creepypastas, rituales).
+
+Imágenes.
+
+Tags (#horror, #dream, etc.).
+
+Se pueden abrir hilos, leerlos y responder con comentarios (varias líneas de texto).
+
+2. 💬 Chat en vivo
+
+Una sala global donde los usuarios escriben mensajes cortos en tiempo real.
+
+Todo se guarda en el navegador para que no se pierda al recargar.
+
+3. 🕊️ Microfeed (mini tweets)
+
+Espacio para escribir pensamientos cortos.
+
+Aparecen como si fueran tweets dentro de la página.
+
+4. 👤 Perfil de usuario
+
+Cada visitante puede elegir un nickname.
+
+Subir una foto de perfil o usar un avatar por defecto.
+
+Ese nombre/avatar se usa en posts, replies, chat y microfeed.
+
+5. 🛒 Mercado oscuro (Dark Market)
+
+Lista de objetos ficticios:
+
+Cursed Mask 🕷️
+
+Black Candle 🕯️
+
+Ancient Grimoire 📖
+
+Blood Amulet 🔮
+
+Cada uno con imagen y botón de compra.
+
+Al comprar:
+
+El objeto se guarda en un carrito.
+
+Suena un efecto de audio inquietante.
+
+Aparece un mensaje simbólico como si hubieras hecho un pacto.
+
+6. 📂 Persistencia y control de datos
+
+Todo se guarda en el navegador con LocalStorage (posts, chat, perfil, tweets, carrito).
+
+Botón para exportar tus datos a un archivo .json.
+
+Botón para importar ese archivo y restaurar tu perfil y actividades.
+
+7. 🎭 Estética y ambientación
+
+Fondo oscuro con toques rojos, morados y negros.
+
+Tipografía estilo retro/oscura.
+
+Botones con efecto hover (sangre y neón).
+
+Imágenes tenebrosas.
+
+Sonido de compra siniestro.
+
+Todo pensado para que parezca un foro prohibido de la dark web.
+
+👉 En pocas palabras:
+Tu página es un foro oscuro + chat en vivo + mercado ficticio + perfil interactivo, todo dentro de un ambiente terrorífico, satánico y estilo dark web/Halloween.

@@ -1,0 +1,93 @@
+Foro / Feed principal
+
+Posts con género (Dreams, Nightmares, Occult, Urban Legends, Dark Poetry).
+
+Texto largo con múltiples líneas.
+
+Imágenes opcionales.
+
+Tags (#horror, #dream, etc.).
+
+Sistema de respuestas a cada post.
+
+Cada post se abre en un modal con todo el hilo.
+
+Categorías y etiquetas
+
+Barra lateral izquierda con géneros (filtro por categoría).
+
+Barra con tags (filtro por etiquetas).
+
+Interacción social estilo microfeed (mini tweets)
+
+Caja para escribir un “micro post”.
+
+Se guardan y aparecen en una lista tipo timeline.
+
+Chat en vivo (local)
+
+Sala de chat global para que todos los usuarios escriban mensajes en tiempo real.
+
+Funciona en el navegador con LocalStorage (persistente).
+
+Perfil de usuario
+
+Se puede elegir un nickname.
+
+Subir una foto de perfil o usar un avatar por defecto.
+
+Se guarda en LocalStorage.
+
+Mercado oscuro (Dark Market)
+
+Lista de objetos (Cursed Mask, Black Candle, Ancient Grimoire, Blood Amulet).
+
+Cada producto tiene imagen, nombre y botón “Buy”.
+
+Al comprar, suena un efecto de audio y el producto se guarda en el carrito.
+
+Carrito con todos los objetos comprados.
+
+Persistencia de datos (LocalStorage)
+
+Todo se guarda en tu navegador: posts, respuestas, tweets, chat, perfil y carrito.
+
+Al recargar la página, nada se pierde.
+
+Exportar / Importar datos
+
+Botón para exportar tus datos a un .json.
+
+Botón para importar un archivo de datos y restaurar todo.
+
+Estética oscura / siniestra
+
+Fondo negro con detalles rojos y grises.
+
+Tipografía retro/dark.
+
+Botones que cambian con hover.
+
+Modal oscuro.
+
+Imágenes con estilo macabro.
+
+Sonido siniestro al comprar objetos.
+
+🚀 Lo que debería tener (para ser más como 4chan/Reddit)
+
+Votaciones (upvote / downvote) en posts y comentarios.
+
+Sistema de notificaciones al recibir una respuesta o compra.
+
+Sonidos ambientales (viento, susurros, glitch digital) al abrir la página.
+
+Temas automáticos (hilos ficticios precargados) para que no empiece vacío.
+
+Paginación o scroll infinito en los posts.
+
+Anonimato con avatares aleatorios (si no subes foto, se asigna un avatar “random creepy”).
+
+Modo glitch en botones e imágenes para dar ambiente “dark web”.
+
+Eventos especiales (ejemplo: en medianoche, aparecen mensajes ocultos o frases macabras).

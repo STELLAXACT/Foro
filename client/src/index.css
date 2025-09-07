@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster:wght@400&family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 4%);
+  --foreground: hsl(0, 0%, 88%);
+  --card: hsl(0, 0%, 6%);
+  --card-foreground: hsl(0, 0%, 88%);
+  --popover: hsl(0, 0%, 6%);
+  --popover-foreground: hsl(0, 0%, 88%);
+  --primary: hsl(0, 75%, 27%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(300, 65%, 18%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --muted: hsl(0, 0%, 10%);
+  --muted-foreground: hsl(0, 0%, 65%);
+  --accent: hsl(0, 100%, 50%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(0, 0%, 15%);
+  --input: hsl(0, 0%, 15%);
+  --ring: hsl(0, 75%, 27%);
+  --chart-1: hsl(203.8863, 88.2845%, 53.1373%);
+  --chart-2: hsl(159.7826, 100%, 36.0784%);
+  --chart-3: hsl(42.0290, 92.8251%, 56.2745%);
+  --chart-4: hsl(147.1429, 78.5047%, 41.9608%);
+  --chart-5: hsl(341.4894, 75.2000%, 50.9804%);
+  --sidebar: hsl(0, 0%, 6%);
+  --sidebar-foreground: hsl(0, 0%, 88%);
+  --sidebar-primary: hsl(0, 75%, 27%);
+  --sidebar-primary-foreground: hsl(0, 0%, 98%);
+  --sidebar-accent: hsl(0, 0%, 10%);
+  --sidebar-accent-foreground: hsl(0, 100%, 50%);
+  --sidebar-border: hsl(0, 0%, 15%);
+  --sidebar-ring: hsl(0, 75%, 27%);
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Georgia", serif;
+  --font-mono: "Courier New", monospace;
+  --font-creepy: "Creepster", cursive;
+  --radius: 0.5rem;
+  --shadow-2xs: 0px 2px 0px 0px hsl(0, 100%, 50%, 0.1);
+  --shadow-xs: 0px 2px 0px 0px hsl(0, 100%, 50%, 0.1);
+  --shadow-sm: 0px 2px 0px 0px hsl(0, 100%, 50%, 0.1), 0px 1px 2px -1px hsl(0, 100%, 50%, 0.1);
+  --shadow: 0px 2px 0px 0px hsl(0, 100%, 50%, 0.1), 0px 1px 2px -1px hsl(0, 100%, 50%, 0.1);
+  --shadow-md: 0px 2px 0px 0px hsl(0, 100%, 50%, 0.1), 0px 2px 4px -1px hsl(0, 100%, 50%, 0.1);
+  --shadow-lg: 0px 2px 0px 0px hsl(0, 100%, 50%, 0.1), 0px 4px 6px -1px hsl(0, 100%, 50%, 0.1);
+  --shadow-xl: 0px 2px 0px 0px hsl(0, 100%, 50%, 0.1), 0px 8px 10px -1px hsl(0, 100%, 50%, 0.1);
+  --shadow-2xl: 0px 2px 0px 0px hsl(0, 100%, 50%, 0.1);
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
+}
+
+body {
+  background: linear-gradient(135deg, hsl(0, 0%, 4%) 0%, hsl(0, 20%, 2%) 100%);
+  min-height: 100vh;
+  font-family: var(--font-sans);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .font-creepy {
+    font-family: var(--font-creepy);
+  }
+  
+  .terminal-text {
+    font-family: 'Courier New', monospace;
+    color: hsl(120, 100%, 50%);
+    text-shadow: 0 0 10px hsl(120, 100%, 50%, 0.5);
+  }
+
+  .skull-icon {
+    filter: drop-shadow(0 0 5px hsl(0, 100%, 50%, 0.5));
+  }
+
+  .modal-backdrop {
+    backdrop-filter: blur(5px);
+    background: hsl(0, 0%, 0%, 0.8);
+  }
+
+  .blood-border {
+    border-image: linear-gradient(45deg, hsl(0, 100%, 25%), hsl(0, 100%, 50%), hsl(0, 100%, 25%)) 1;
+  }
+
+  .glitch:hover {
+    animation: glitch 0.3s infinite;
+  }
+
+  .upvote-btn:hover {
+    color: hsl(0, 100%, 50%);
+    transform: scale(1.1);
+  }
+
+  .downvote-btn:hover {
+    color: hsl(240, 100%, 50%);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes glitch {
+  0%, 100% { transform: translateX(0); }
+  10% { transform: translateX(-2px) skew(-1deg); }
+  20% { transform: translateX(2px) skew(1deg); }
+  30% { transform: translateX(-1px) skew(-0.5deg); }
+  40% { transform: translateX(1px) skew(0.5deg); }
+  50% { transform: translateX(-0.5px); }
+}
+
+@keyframes pulse-red {
+  0%, 100% { box-shadow: 0 0 5px hsl(0, 100%, 50%, 0.3); }
+  50% { box-shadow: 0 0 20px hsl(0, 100%, 50%, 0.6); }
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+  75% { opacity: 0.9; }
+}
+
+.animate-pulse-red {
+  animation: pulse-red 2s infinite;
+}
+
+.animate-flicker {
+  animation: flicker 3s infinite;
+}
